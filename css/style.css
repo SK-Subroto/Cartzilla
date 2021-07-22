@@ -1,0 +1,223 @@
+/* home */
+.home{
+    position: relative;
+}
+.home-detail{
+    padding-left: 25%;
+}
+.category{
+    background-color: white;
+    height: 340px;
+    width: 810px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 450px;
+    left: 110px;
+    box-shadow: 0px 0px 20px -10px grey;
+}
+.category p{
+    text-align: center;
+    font-weight: 500;
+}
+.men, .womwn, .kids{
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+/* trend-products */
+.trend-products{
+    margin-top: 180px;
+}
+/* .trend-products .card{
+    border: none;
+} */
+.card{
+    border: none;
+}
+.trend-products .card:hover{
+    box-shadow: 0px 0px 20px -10px grey;
+}
+.trend-products .card:hover .add-to-cart{
+    visibility:visible;
+}
+/* .trend-products .card-footer{
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+} */
+.card-footer{
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.add-to-cart{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 140px;
+    /* margin-bottom: -140px; */
+    margin-top: -1.25rem;
+    /* transition: all 0.15s ease-in-out; */
+    border-radius: .4375rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    /* opacity: 0; */
+    visibility: hidden;
+    z-index: 1;
+    box-shadow: 0px 0px 20px -10px grey;
+}
+.sizes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.size{
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #FE696A;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+/* .cart-btn{
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+} */
+.product-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    /* width: 80%; */
+}
+.cart-btn, .view-btn{
+    width: 90%;
+    font-size: smaller;
+}
+.whitelist{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F3F5F9;
+    color: #878D98;
+    font-size: smaller;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* offer */
+.offers{
+    margin-top: 100px;
+}
+.limited-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6FAFD;
+    border-radius: 10px;
+}
+.limited-offer-detail{
+    padding-left: 60px;
+}
+.limited-offer-img img{
+    /* width: 80%; */
+    border-radius: 0 10px 10px 0;
+}
+
+.reserve{
+    background-image: url(https://cartzilla.createx.studio/img/blog/banner-bg.jpg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+/* main-products-day */
+.main-products-day{
+    margin-top: 60px;
+}
+.product-day{
+    display: flex;
+    flex-direction: column;
+}
+.product-day-img img{
+    width: 100%;
+}
+.product-day-detail{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 30px;
+    background-color: #E2E9EF;
+}
+.product-day-detail button{
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    /* font-weight: 100; */
+}
+.product-day-detail a{
+    text-decoration: none;
+    color: #FE696A;
+}
+
+/* brand */
+.brand-container{
+    margin-top: 60px;
+}
+.brand{
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px -10px grey;
+    display: flex;
+    justify-content: center;
+}
+.brand img{
+    width: 200px;
+}
+
+/* blog */
+.blog-container{
+    margin-top: 60px;
+}
+.blog-detail, .insta-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    padding: 0;
+}
+.blog-container i{
+    font-size: 2rem;
+}
+.blog-detail{
+    background-color: #FFF1F2;
+}
+.insta-detail{
+    background-color: #EFF0FA;
+}
+.blog-detail i{
+    color: #FE7D7E;
+}
+.insta-detail i{
+    color: #4E54C8;
+}
