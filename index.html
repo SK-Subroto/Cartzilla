@@ -22,6 +22,139 @@
 
 <body>
     <header>
+        <nav class="first-nav fixed-top navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="https://cartzilla.createx.studio/img/logo-dark.png" alt="" width="142" height="34"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="search-product collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="input-group input-group-md">
+                        <input type="text" class="form-control" placeholder="Search for products" aria-label="Search for products"
+                            aria-describedby="button-addon2">
+                        <!-- <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button> -->
+                        <i class="search-icon fas fa-search"></i>
+                    </div>
+                    <i class="nav-whitelist fas fa-heart"></i>
+                </div>
+                <div class="user-info">
+                    <div class="user-detail">
+                        <i class="fas fa-user"></i>
+                        <p><span>Hello, Sign in</span><br>My Account</p>
+                    </div>
+                    <div class="cart-detail">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p><span>My Cart</span><br>$265.00</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <!-- navbar-2 -->
+        <nav class="second-nav navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="dropdown">
+                    <a class="nav-link dropdown-toggle ps-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fas fa-th-large"></i> Departments
+                    </a>
+                    <ul class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="vl"></div>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <section class="cotainer-fluid">
             <div class="home">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -89,18 +222,21 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-        
+
                 <div class="category">
                     <div class="men">
-                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm01.jpg" alt="" class="img-fluid">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm01.jpg" alt=""
+                            class="img-fluid">
                         <p>Men</p>
                     </div>
                     <div class="women">
-                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm02.jpg" alt="" class="img-fluid">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm02.jpg" alt=""
+                            class="img-fluid">
                         <p>Women</p>
                     </div>
                     <div class="kids">
-                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm03.jpg" alt="" class="img-fluid">
+                        <img src="https://cartzilla.createx.studio/img/home/categories/cat-sm03.jpg" alt=""
+                            class="img-fluid">
                         <p>Kids</p>
                     </div>
                 </div>
@@ -114,7 +250,8 @@
             <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
                 <div class="col">
                     <div class="card">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/01.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/01.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -139,7 +276,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -150,7 +288,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/02.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/02.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -175,7 +314,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -186,7 +326,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/03.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/03.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -211,7 +352,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -222,7 +364,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/04.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/04.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -247,7 +390,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -258,7 +402,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/05.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/05.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -283,7 +428,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -294,7 +440,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/06.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/06.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -319,7 +466,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -330,7 +478,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/07.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/07.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -355,7 +504,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -366,7 +516,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://cartzilla.createx.studio/img/shop/catalog/08.jpg" class="card-img-top" alt="...">
+                        <img src="https://cartzilla.createx.studio/img/shop/catalog/08.jpg" class="card-img-top"
+                            alt="...">
                         <div class="card-body">
                             <small class="card-text">Sneakers & Keds</small>
                             <p class="card-title">Women Colorblock Sneakers</p>
@@ -391,7 +542,8 @@
                                 <div class="size">9</div>
                             </div>
                             <div class="product-btn">
-                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to cart</button>
+                                <button class="cart-btn btn btn-primary"><i class="fas fa-cart-plus"></i> Add to
+                                    cart</button>
                                 <button class="view-btn btn btn-default"><i class="fas fa-eye"></i> Quick view</button>
                             </div>
                         </div>
@@ -455,7 +607,8 @@
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                         <div class="col">
                             <div class="card">
-                                <img src="https://cartzilla.createx.studio/img/shop/catalog/20.jpg" class="card-img-top" alt="...">
+                                <img src="https://cartzilla.createx.studio/img/shop/catalog/20.jpg" class="card-img-top"
+                                    alt="...">
                                 <div class="card-body">
                                     <small class="card-text">Sneakers & Keds</small>
                                     <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
@@ -479,7 +632,8 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/21.jpg" class="card-img-top" alt="...">
+                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/21.jpg"
+                                    class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <small class="card-text">Sneakers & Keds</small>
                                     <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
@@ -503,7 +657,8 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/23.jpg" class="card-img-top" alt="...">
+                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/23.jpg"
+                                    class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <small class="card-text">Sneakers & Keds</small>
                                     <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
@@ -527,7 +682,8 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/51.jpg" class="card-img-top" alt="...">
+                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/51.jpg"
+                                    class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <small class="card-text">Sneakers & Keds</small>
                                     <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
@@ -551,7 +707,8 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/24.jpg" class="card-img-top" alt="...">
+                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/24.jpg"
+                                    class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <small class="card-text">Sneakers & Keds</small>
                                     <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
@@ -575,7 +732,8 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/54.jpg" class="card-img-top" alt="...">
+                                <img src="	https://cartzilla.createx.studio/img/shop/catalog/54.jpg"
+                                    class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <small class="card-text">Sneakers & Keds</small>
                                     <h3 class="card-title fs-6 fw-bold">Women Colorblock Sneakers</h3>
@@ -671,7 +829,9 @@
                     <div class="col-lg-4">
                         <div class="shop-departments">
                             <ul>
-                                <li><h5>Shop departments</h5></li>
+                                <li>
+                                    <h5>Shop departments</h5>
+                                </li>
                                 <li>Sneakers & Athletic</li>
                                 <li>Athletic Apparel</li>
                                 <li>Sandals</li>
@@ -691,7 +851,9 @@
                     <div class="col-lg-4">
                         <div class="account-shipping-info">
                             <ul>
-                                <li><h5>Account & shipping info</h5></li>
+                                <li>
+                                    <h5>Account & shipping info</h5>
+                                </li>
                                 <li>Your account</li>
                                 <li>Shipping rates & policies</li>
                                 <li>Refunds & replacements</li>
@@ -702,7 +864,9 @@
                         </div>
                         <div class="about-us">
                             <ul>
-                                <li><h5>About us</h5></li>
+                                <li>
+                                    <h5>About us</h5>
+                                </li>
                                 <li>About company</li>
                                 <li>Our team</li>
                                 <li>Careers</li>
@@ -714,22 +878,27 @@
                         <div class="stay-informed">
                             <h5>Stay informed</h5>
                             <div class="input-group input-group-lg mb-3">
-                                <input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's username"
-                                    aria-describedby="button-addon2">
-                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe*</button>
+                                <input type="text" class="form-control" placeholder="Your email"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Subscribe*</button>
+                                <i class="email-icon far fa-envelope"></i>
                             </div>
-                            <small>*Subscribe to our newsletter to receive early discount offers, updates and new products info.</small>
+                            <small>*Subscribe to our newsletter to receive early discount offers, updates and new
+                                products info.</small>
                             <h5>Download our app</h5>
                             <div class="app">
                                 <div class="ios">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png" alt="">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png"
+                                        alt="">
                                     <div class="ios-detail">
                                         <small>Download on the</small>
                                         <h6>App Store</h6>
                                     </div>
                                 </div>
                                 <div class="android">
-                                    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/google-play-store-logo.png" alt="">
+                                    <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/google-play-store-logo.png"
+                                        alt="">
                                     <div class="android-detail">
                                         <small>Download on the</small>
                                         <h6>Google Play</h6>
