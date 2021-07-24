@@ -1,4 +1,7 @@
 /* navbar-1 */
+.search-product{
+    display: flex;
+}
 .search-product input{
     padding: 9px 16px;
     border-radius: 5px;
@@ -21,8 +24,11 @@
 .user-info{
     display: flex;
 }
-.navbar-light .navbar-toggler{
+.user-info button{
     border: none;
+}
+.user-info button:focus{
+    box-shadow: none;
 }
 .user-detail, .cart-detail{
     display: flex;
@@ -65,7 +71,7 @@
     padding: 0 3%;
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
+    /* display: block; */
     margin-top: 0;
  }
 /* home */
@@ -404,16 +410,49 @@
 }
 
 /* Media Query */
+
+/* for desktop */
+@media only screen and (min-width: 992px){
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-toggle::after {
+        display:none;
+    }
+}
 /* for pad */
 @media screen and (max-width: 992px) {
     .first-nav, .second-nav{
         /* display: none; */
     }
+
+    /* navbar-1 */
+    .search-product{
+        margin-top: 10px;
+        /* padding: 0 10px; */
+    }
+    .search-product i{
+        display: none;
+    }
+    .nav-whitelist{
+        margin: 0 8px;
+    }
     .user-detail p, .cart-detail p{
         display: none;
     }
+
+    /* navbar-2 */
     .second-nav {
-    margin-top: 45px;
+        /* position: fixed; */
+        margin-top: 57px;
+    }
+    .second-nav li{
+        border-radius: 6px;
+        background-color: #F6F9FC;
+        margin: 5px 0;
+    }
+    .vl{
+        display: none;
     }
     .home-detail{
         padding: 20px;
@@ -447,20 +486,10 @@
 
 /* for mobile */
 @media screen and (max-width: 688px) {
-    /* .first-nav, .second-nav{
-        display: none;
-    } */
-    .home-detail{
-        padding: 20px;
-        text-align: center;
-    }
     .category{
         flex-direction: column;
-        position: static;
-        /* margin-top: 6%; */
         width: 80%;
-        height: auto;
-        margin: 6% auto;
+        margin: 6% auto; 
     }
     /* main */
     .trend-products {
@@ -475,16 +504,10 @@
     .limited-offer-img{
         margin: 0 auto;
     }
-    .product-day-detail{
-        padding: 30px 10px;
-    }
     .product-day-img{
         display: none;
     }
     /* footer */
-    .stay-informed{
-        padding-bottom: 30px;
-    }
     .why-us{
         justify-content: center;
     }
