@@ -6,6 +6,11 @@
     padding: 9px 16px;
     border-radius: 5px;
 }
+.search-product input:focus{
+    box-shadow: none;
+    border: 1px solid #FE696A;
+    background-color: transparent;
+}
 .search-product .search-icon{
     position: absolute;
     right: 13px;
@@ -20,6 +25,11 @@
     padding: 10px;
     border-radius: 50%;
     margin: 0 20px;
+    cursor: pointer;
+}
+.nav-whitelist:hover{
+    color: #FE696A;
+    background-color: #ecd4d4;
 }
 .user-info{
     display: flex;
@@ -33,7 +43,12 @@
 .user-detail, .cart-detail{
     display: flex;
     align-items: center;
+    cursor: pointer;
     /* margin-right: 20px; */
+}
+.user-detail:hover  i, .cart-detail:hover i{
+    color: #FE696A;
+    background-color: #ecd4d4;
 }
 .user-detail span, .cart-detail span{
     font-size: x-small;
@@ -60,12 +75,21 @@
     margin-top: 70px;
     /* margin-left: -30px; */
 }
+.department{
+    list-style: none;
+}
+.department-link{
+    color: grey;
+}
 .vl {
   border-left: 1px solid grey;
   height: 25px;
 }
 .second-nav a{
     font-size: 1.1em;
+}
+.second-nav a:hover{
+    color: #FE696A;
 }
 .second-nav .nav-item{
     padding: 0 3%;
@@ -190,6 +214,16 @@
     margin: 10px 0;
     /* width: 80%; */
 }
+.product-btn button:nth-child(1){
+    background-color: #FE696A;
+    border: none;
+}
+.product-btn button:nth-child(1):hover{
+    background-color: #f04444;
+}
+.product-btn button:nth-child(2):hover{
+    color: #FE696A;
+}
 .cart-btn, .view-btn{
     width: 90%;
     font-size: smaller;
@@ -212,6 +246,16 @@
 /* offer */
 .offers{
     margin-top: 100px;
+}
+.offers button{
+    background-color: #FE696A;
+    border: none;
+    box-shadow: 0px 6px 21px -5px #fe696a;
+}
+.offers button:hover{
+    background-color: #f04444;
+    border: none;
+    box-shadow: none;
 }
 .limited-offer{
     display: flex;
@@ -419,6 +463,15 @@
     .dropdown-toggle::after {
         display:none;
     }
+    .home-detail h1{
+        font-size: 2.5em;
+    }
+    .home-detail h3{
+        font-weight: 300;
+    }
+    .home-detail p{
+        font-size: 1.2em;
+    }
 }
 /* for pad */
 @media screen and (max-width: 992px) {
@@ -432,7 +485,7 @@
         /* padding: 0 10px; */
     }
     .search-product i{
-        display: none;
+        /* display: none; */
     }
     .nav-whitelist{
         margin: 0 8px;
@@ -443,16 +496,25 @@
 
     /* navbar-2 */
     .second-nav {
-        /* position: fixed; */
-        margin-top: 57px;
+        position: fixed;
+        top: 40px;
+        z-index: 1;
+        /* margin-top: 57px; */
+        background-color: transparent !important;
     }
     .second-nav li{
         border-radius: 6px;
         background-color: #F6F9FC;
-        margin: 5px 0;
+        margin: 2px 0;
+    }
+    .department{
+        padding: 2px 4px;
     }
     .vl{
         display: none;
+    }
+    .home{
+        margin-top: 62px;
     }
     .home-detail{
         padding: 20px;
